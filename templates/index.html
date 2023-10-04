@@ -16,7 +16,7 @@
 
     <aside id="header">
         <section class="profile">
-            <img src="../static/img/luiz.jpg" alt="Foto do Luiz">
+            <img src="../static/img/perfil.jpg" alt="Foto do Luiz">
             <h1>Luiz Fernando</h1>
             <div class="social-links mt-4 text-center">
                 <a target="_blank" href="https://www.linkedin.com/in/lf-monteiro/">
@@ -67,21 +67,15 @@
     <main id="main">
         <section id="inicio" class="row m-0 p-0">
             <div class="col-md-5 d-flex align-items-center justify-content-center flex-column">
-                <h2 class="text-white text-shadow">Luiz Fernando</h2>
-                <span id="subtitle" class="text-white text-shadow">Cientista de Dados e Desenvolvedor Python Jr</span>
-            </div>
-
-            <div class="col-md-7 d-flex align-items-end justify-content-end">
-                <div id="arraste" class="d-flex align-items-center">
-                    <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
-                    <a href="#sobre">Arraste para mais</a>
-                </div>
+                <h2 class="text-white text-shadow pb-3">Luiz Fernando</h2>
+                <span id="subtitle" class="text-white text-shadow ps-4">Cientista de Dados e Desenvolvedor Python
+                    Jr</span>
             </div>
         </section>
 
         <section id="sobre" class="container mt-5">
             <div class="row w-100">
-                <div class="col-md-12">
+                <div class="col-md-12" data-anime="down">
                     <h2 class="pt-3">Sobre</h2>
                     <p>Olá! Sou programador Python com mais de 2 anos de experiência, meu foco principal está na
                         análise de dados e ciência de dados. Sou apaixonado por transformar informações em insights
@@ -121,9 +115,9 @@
 
             <div class="row mt-4">
                 <div class="col-md-4">
-                    <img class="img-fluid shadow" src="../static/img/luiz.jpg" alt="Foto do Luiz">
+                    <img class="img-fluid shadow" src="../static/img/perfil.jpg" alt="Foto do Luiz" data-anime="left">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8" data-anime="right">
                     <h3>Desenvolvedor Python | Cientista de Dados</h3>
 
 
@@ -159,8 +153,6 @@
                         </div>
                     </div>
 
-                    <p>Paragrafo falando um pouco sobre mim.......</p>
-
 
                 </div>
             </div>
@@ -179,65 +171,82 @@
                 <div class="row">
                     <div class="col-md-6">
                         <p class="mt-3 mb-0">Power BI</p>
-                        <div class="progress" role="progressbar" aria-label="power bi" aria-valuenow="100"
-                            aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar" style="width: 100%">100%</div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 100%" role="progressbar"
+                                aria-label="power bi" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+                                data-anime="left">100%</div>
                         </div>
 
                         <p class="mt-3 mb-0">Excel</p>
-                        <div class="progress" role="progressbar" aria-label="excel" aria-valuenow="100"
-                            aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar" style="width: 100%">100%</div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 100%" role="progressbar"
+                                aria-label="excel" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+                                data-anime="left">100%</div>
                         </div>
 
                         <p class="mt-3 mb-0">Python</p>
-                        <div class="progress" role="progressbar" aria-label="python" aria-valuenow="65"
-                            aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar" style="width: 65%">65%</div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
+                                style="width: 65%" role="progressbar" aria-label="python" aria-valuenow="65"
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">65%</div>
                         </div>
 
                         <p class="mt-3 mb-0">HTML</p>
-                        <div class="progress" role="progressbar" aria-label="html" aria-valuenow="40" aria-valuemin="0"
-                            aria-valuemax="100">
-                            <div class="progress-bar" style="width: 40%">40%</div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
+                                style="width: 40%" role="progressbar" aria-label="html" aria-valuenow="40"
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">40%</div>
                         </div>
 
                         <p class="mt-3 mb-0">CSS</p>
-                        <div class="progress" role="progressbar" aria-label="css" aria-valuenow="40" aria-valuemin="0"
-                            aria-valuemax="100">
-                            <div class="progress-bar" style="width: 40%">40%</div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
+                                style="width: 40%" role="progressbar" aria-label="css" aria-valuenow="40"
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">40%</div>
+                        </div>
+
+                        <p class="mt-3 mb-0">JavaScript</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
+                                style="width: 30%" role="progressbar" aria-label="javascript" aria-valuenow="30"
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">30%</div>
                         </div>
                     </div>
 
                     <div class="col-md-6">
                         <p class="mt-3 mb-0">SQL</p>
-                        <div class="progress" role="progressbar" aria-label="sql" aria-valuenow="90" aria-valuemin="0"
-                            aria-valuemax="100">
-                            <div class="progress-bar" style="width: 90%">90%</div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
+                                style="width: 90%" role="progressbar" aria-label="sql" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">90%</div>
                         </div>
 
                         <p class="mt-3 mb-0">Pandas</p>
-                        <div class="progress" role="progressbar" aria-label="pandas" aria-valuenow="90"
-                            aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar" style="width: 90%">90%</div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
+                                style="width: 90%" role="progressbar" aria-label="pandas" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">90%</div>
                         </div>
 
                         <p class="mt-3 mb-0">NumPy</p>
-                        <div class="progress" role="progressbar" aria-label="NumPy" aria-valuenow="70" aria-valuemin="0"
-                            aria-valuemax="100">
-                            <div class="progress-bar" style="width: 70%">70%</div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
+                                style="width: 70%" role="progressbar" aria-label="NumPy" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">70%</div>
                         </div>
 
                         <p class="mt-3 mb-0">Matplotlib</p>
-                        <div class="progress" role="progressbar" aria-label="Matplotlib" aria-valuenow="70"
-                            aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar" style="width: 70%">70%</div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
+                                style="width: 70%" role="progressbar" aria-label="Matplotlib" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">70%</div>
                         </div>
 
                         <p class="mt-3 mb-0">Flask</p>
-                        <div class="progress" role="progressbar" aria-label="flask" aria-valuenow="10" aria-valuemin="0"
-                            aria-valuemax="100">
-                            <div class="progress-bar" style="width: 10%">10%</div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning text-dark"
+                                style="width: 10%" role="progressbar" aria-label="flask" aria-valuenow="10"
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">10%</div>
                         </div>
                     </div>
 
@@ -248,29 +257,45 @@
                 <div class="row">
                     <div class="col-md-6">
                         <p class="mt-3 mb-0">Trabalho em equipe</p>
-                        <div class="progress" role="progressbar" aria-label="Trabalho em equipe" aria-valuenow="100"
-                            aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar" style="width: 100%">100%</div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 100%" role="progressbar"
+                                aria-label="Trabalho em equipe" aria-valuenow="100" aria-valuemin="0"
+                                aria-valuemax="100" data-anime="left">100%</div>
                         </div>
 
-                        <p class="mt-3 mb-0">Adaptabilidade e flexibilidade</p>
-                        <div class="progress" role="progressbar" aria-label="Adaptabilidade e flexibilidade"
-                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar" style="width: 100%">100%</div>
+                        <p class="mt-3 mb-0">Adaptabilidade</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 100%" role="progressbar"
+                                aria-label="Adaptabilidade e flexibilidade" aria-valuenow="100" aria-valuemin="0"
+                                aria-valuemax="100" data-anime="left">100%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Flexibilidade</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 100%" role="progressbar"
+                                aria-label="Flexibilidade" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+                                data-anime="left">100%</div>
                         </div>
                     </div>
 
                     <div class="col-md-6">
-                        <p class="mt-3 mb-0">Curiosidade e aprendizado contínuo</p>
-                        <div class="progress" role="progressbar" aria-label="Curiosidade e aprendizado contínuo"
-                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar" style="width: 100%">100%</div>
+                        <p class="mt-3 mb-0">Curiosidade</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 100%" role="progressbar"
+                                aria-label="Curiosidade" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+                                data-anime="left">100%</div>
+                        </div>
+                        <p class="mt-3 mb-0">Facilidade de aprendizado</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 100%" role="progressbar"
+                                aria-label="Facilidade de aprendizado" aria-valuenow="100" aria-valuemin="0"
+                                aria-valuemax="100" data-anime="left">100%</div>
                         </div>
 
                         <p class="mt-3 mb-0">Pensamento analítico</p>
-                        <div class="progress" role="progressbar" aria-label="Pensamento analítico" aria-valuenow="100"
-                            aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar" style="width: 100%">100%</div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 100%" role="progressbar"
+                                aria-label="Pensamento analítico" aria-valuenow="100" aria-valuemin="0"
+                                aria-valuemax="100" data-anime="left">100%</div>
                         </div>
                     </div>
                 </div>
@@ -286,14 +311,14 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h3 class="cv-title">Educação</h3>
-                        <div class="cv-item">
+                        <div class="cv-item" data-anime="up">
                             <h4>Pós Graduação - Data Science</h4>
                             <h5>2023 - Atualmente</h5>
                             <p><em>Pós Descomplica</em></p>
                             <p>Pós Graduação em Data Science, com carga horária de 360 horas</p>
                         </div>
 
-                        <div class="cv-item">
+                        <div class="cv-item" data-anime="up">
                             <h4>Sistemas de Informação</h4>
                             <h5>2017 - 2020</h5>
                             <p><em>União Pioneira de Integração Social - UPIS</em></p>
@@ -303,48 +328,52 @@
 
                     <div class="col-md-6">
                         <h3 class="cv-title">Profissional</h3>
-                        <div class="cv-item">
+                        <div class="cv-item" data-anime="up">
                             <h4>Chefe da Divisão de Pesquisa e Análise de Solução de Tecnologia da Informação e
                                 Comunicação</h4>
                             <h5>2023 - Atualmente</h5>
                             <p><em>Ministério da Justiça e Segurança Pública - Subsecretaria de Tecnologia da
                                     Informação</em></p>
                             <p>Como parte das minhas responsabilidades, utilizo diariamente ferramentas como Python,
-                                Power BI, Excel, Microsoft Azure e SQL Server. Sou responsável pelo atendimento dos
+                                Power BI, Excel, Microsoft Azure e SQL Server. <br> Sou responsável pelo atendimento dos
                                 chamados direcionados ao grupo "CID - Atendimento", que engloba as mesas de atendimento
-                                de "Dados", incluindo "Assessoria", "Suporte a acesso a dados" e "Suporte a BI". Essas
+                                de "Dados", incluindo "Assessoria", "Suporte a acesso a dados" e "Suporte a BI". <br>
+                                Essas
                                 mesas são subdivididas em diversas áreas, como "Assessoria à definição de solução de
                                 dados", "Suporte ao compartilhamento de Base de Dados", "Suporte de acesso a dados via
                                 API", "Evolução de painel de BI", "Solicitar acesso ao Power BI" e "Sustentação de
                                 solução de BI".</p>
                         </div>
 
-                        <div class="cv-item">
+                        <div class="cv-item" data-anime="up">
                             <h4>Assistente Técnico do Subsecretário de Tecnologia e Informação e Comunicação</h4>
                             <h5>2023 - 2023</h5>
                             <p><em>Ministério da Justiça e Segurança Pública - Subsecretaria de Tecnologia da
                                     Informação</em></p>
                             <p>Utilizei ferramentas como Python, Power BI, Excel, Microsoft Azure e SQL Server
-                                diariamente. Fui responsável pelo atendimento dos chamados direcionados ao grupo "CID -
+                                diariamente. <br>Fui responsável pelo atendimento dos chamados direcionados ao grupo
+                                "CID -
                                 Atendimento", que contemplava as mesas de atendimento de "Dados", incluindo
-                                "Assessoria", "Suporte a acesso a dados" e "Suporte a BI". Essas mesas eram desdobradas
+                                "Assessoria", "Suporte a acesso a dados" e "Suporte a BI". <br>Essas mesas eram
+                                desdobradas
                                 em diversas áreas, como "Assessoria à definição de solução de dados", "Suporte ao
                                 compartilhamento de Base de Dados", "Suporte de acesso a dados via API", "Evolução de
                                 painel de BI", "Solicitar acesso ao Power BI" e "Sustentação de solução de BI".</p>
                         </div>
 
-                        <div class="cv-item">
+                        <div class="cv-item" data-anime="up">
                             <h4>Assistente Técnico do Ouvidor-Geral</h4>
                             <h5>2022 - 2023</h5>
                             <p><em>Ministério da Justiça e Segurança Pública - Ouvidoria</em></p>
                             <p>No meu dia a dia, utilizei diariamente ferramentas como Python, Power BI, Excel e Plone
                                 em
-                                todas as minhas tarefas. Além disso, mantenho um relacionamento direto e dinâmico com
+                                todas as minhas tarefas. <br>Além disso, mantenho um relacionamento direto e dinâmico
+                                com
                                 servidores, o que me ajudou a aprimorar minhas habilidades de comunicação e trabalho em
                                 equipe.Utilizava metodologias ágeis para a gestão da equipe.</p>
                         </div>
 
-                        <div class="cv-item">
+                        <div class="cv-item" data-anime="up">
                             <h4>Chefe da Divisão de Análise de Dados e Estatística</h4>
                             <h5>2022 - 2022</h5>
                             <p><em>Ministério da Justiça e Segurança Pública - Ouvidoria</em></p>
@@ -352,11 +381,12 @@
                                 em
                                 todas as minhas tarefas. Além disso, mantenho um relacionamento direto e dinâmico com
                                 servidores, o que me ajudou a aprimorar minhas habilidades de comunicação e trabalho em
-                                equipe. Também tive a oportunidade de liderar a implementação da LGPD no âmbito Federal
+                                equipe.<br>Também tive a oportunidade de liderar a implementação da LGPD no âmbito
+                                Federal
                                 e fazia uso de metodologias ágeis para a gestão da equipe.</p>
                         </div>
 
-                        <div class="cv-item">
+                        <div class="cv-item" data-anime="up">
                             <h4>Analista de Suporte Computacional</h4>
                             <h5>2021 - 2022</h5>
                             <p><em>Colégio Instituto São José</em></p>
@@ -368,7 +398,7 @@
         </section>
 
         <section id="portifolio" class="mt-5 section-bg">
-            <div class="container pb-5 pt-5">
+            <div class="container pb-5 pt-5" data-anime="left">
                 <h2 class="pb-4">Portifólio</h2>
 
                 <div id="carouselPortifolio" class="carousel carousel-dark slide">
@@ -469,10 +499,10 @@
 
                 <div class="row">
                     <div class="col-md-5">
-                        <div class="card p-5 shadow border-0">
+                        <div class="card p-5 shadow border-0" data-anime="up">
                             <div class="endereco">
                                 <h4><i class="bi bi-geo-alt"></i> Localização:</h4>
-                                <p>Brasilia, DF</p>
+                                <p>Sobradinho, Brasília - DF</p>
                             </div>
 
                             <div class="email">
@@ -489,15 +519,17 @@
                     </div>
 
                     <div class="col-md-7 mt-5 mt-md-0">
-                        <div class="card p-5 h-100 shadow border-0">
+                        <div class="card p-5 h-100 shadow border-0" data-anime="left">
                             <form class="row g-3">
                                 <div class="col-md-6">
                                     <label for="nome" class="form-label">Nome:</label>
-                                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome">
+                                    <input type="text" class="form-control" id="nome" name="nome"
+                                        placeholder="Digite seu nome">
                                 </div>
                                 <div class="col-md-6">
                                     <label for="email" class="form-label">E-mail</label>
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu e-mail">
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Digite seu e-mail">
                                 </div>
                                 <div class="col-12">
                                     <label for="mensagem" class="form-label">Mensagem:</label>
